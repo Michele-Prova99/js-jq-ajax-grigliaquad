@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.template {
+  display: none;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
